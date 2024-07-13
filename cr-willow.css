@@ -3,6 +3,16 @@
 	--color-c: #c09923;
 	--border-c: 1px solid #c09923;
 }
+.mq-willow-elliot{
+	--accent: linear-gradient(44deg, #003554, #0582ca);
+	--color-c: #035c8f;
+	--border-c: 1px solid #035c8f;
+}
+.mq-willow-lily{
+	--accent: linear-gradient(44deg, #e36414, #fb8b24);
+	--color-c: #ef781c;
+	--border-c: 1px solid #ef781c;
+}
 .mq-willow-base1 {
 	--bcg1: #2c2c2c80;
 	--bcg2: #50505080;
