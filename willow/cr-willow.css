@@ -18,6 +18,7 @@
 	--bcg2: #50505080;
 	--bcg3: #242424;
 	--color-h:#d4d4d4;
+	--color-f:#cecece;
 	--border-g: 1px solid #505050;
   	box-sizing: border-box;
 	width: 504px;
@@ -25,6 +26,7 @@
 	backdrop-filter: blur(2px);
 	-webkit-backdrop-filter: blur(2px);
 	font-family: "Lato", sans-serif;
+	color: var(--color-f);
 	border-left: var(--border-g);
 	border-top: var(--border-g);
 	border-bottom: var(--border-g);
@@ -111,3 +113,11 @@
 	text-transform: lowercase;
 }
 .mq-willow-rd1 a:hover {color:var(--color-h);}
+.mq-willow-cred1 {
+	position: absolute;
+	font-size: 0.8em;
+	padding-top: 5px;
+	padding-left: 420px;
+}
+.mq-willow-cred1 a {color: var(--color-h);}
+.mq-willow-cred1 a:hover {color: var(--color-f);}
