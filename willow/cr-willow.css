@@ -27,6 +27,7 @@
 	-webkit-backdrop-filter: blur(2px);
 	font-family: "Lato", sans-serif;
 	color: var(--color-f);
+	text-align: left;
 	border-left: var(--border-g);
 	border-top: var(--border-g);
 	border-bottom: var(--border-g);
