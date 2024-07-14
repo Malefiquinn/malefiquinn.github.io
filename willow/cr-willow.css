@@ -120,5 +120,8 @@
 	padding-top: 5px;
 	padding-left: 420px;
 }
-.mq-willow-cred1 a {color: var(--color-h);}
+.mq-willow-cred1 a {
+	color: var(--color-h);
+	transition: 0.4s;
+}
 .mq-willow-cred1 a:hover {color: var(--color-c);}
