@@ -1,17 +1,17 @@
 .mq-willow-lottie{
 	--accent: linear-gradient(44deg, #926c15, #edc531);
 	--color-c: #c09923;
-	--border-c: 1px solid #c09923;
+	--border-c: 4px solid #c09923;
 }
 .mq-willow-elliott{
 	--accent: linear-gradient(44deg, #0b4969, #006da4);
 	--color-c: #055b87;
-	--border-c: 1px solid #055b87;
+	--border-c: 4px solid #055b87;
 }
 .mq-willow-lily{
 	--accent: linear-gradient(44deg, #de6d17, #ff8b00);
 	--color-c: #ef7c0b;
-	--border-c: 1px solid #ef7c0b;
+	--border-c: 4px solid #ef7c0b;
 }
 .mq-willow-base1 {
 	--bcg1: #2c2c2c80;
@@ -19,18 +19,28 @@
 	--bcg3: #242424;
 	--color-h:#d4d4d4;
 	--border-g: 1px solid #505050;
-	box-sizing: border-box;
-	width: 500px;
+  	box-sizing: border-box;
+	width: 504px;
 	background-color: var(--bcg1);
 	backdrop-filter: blur(2px);
 	-webkit-backdrop-filter: blur(2px);
 	font-family: "Lato", sans-serif;
-	border: var(--border-g);
-	padding: 20px;
+	border-left: var(--border-g);
+	border-top: var(--border-g);
+	border-bottom: var(--border-g);
 	margin: 10px auto;
 }
 .mq-willow-base1 br {
 	display: none;
+}
+.mq-willow-origin1 {
+	box-sizing: border-box;
+	border-right: var(--border-c);
+	padding: 20px;
+}
+.mq-willow-main1 {
+	display: flex;
+	flex-direction: column
 }
 .mq-willow-title1 {
 	display: block;
@@ -41,7 +51,17 @@
 	background: var(--accent);
 	-webkit-background-clip: text;
 	color: transparent;
-	padding: 0px 15px 25px 15px;
+	padding: 40px 60px 40px 15px;
+}
+.mq-willow-img1 {
+	position: absolute;
+	height: 120px;
+	width: 120px;
+	background-size: cover;
+	border: var(--border-c);
+	border-radius: 100%;
+	right: -70px;
+	z-index: 5;
 }
 .mq-willow-grid1 {
 	box-sizing: border-box;
