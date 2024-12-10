@@ -1,20 +1,4 @@
 /*Variables*/
-.box {
-  display: flex;
-  flex-direction: row;
-  background-color: var(--backg1);
-  align-self: center;
-  justify-content: center;
-  border-radius: 10px;
-  width: 480px;
-  padding: 20px;
-  margin: 8px;
-  border: var(--border1);
-  box-sizing: border-box;
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-}
 .image {
   width: 200px;
   height: 300px;
@@ -68,33 +52,6 @@
 .text a {
   font-style: italic;
 }
-p {
-  text-align: left;
-}
-a {
-  color: var(--scolor1);
-  text-decoration: none;
-  transition: all 0.9s ease;
-}
-a:hover {
-  color: var(--scolor2);
-}
-h1 {
-  display: flex;
-  align-self: stretch;
-  justify-content: center;
-  border-radius: 5px;
-  margin: 0px;
-  padding: 15px;
-  box-sizing: border-box;
-  background-color: var(--backg2);
-  border: var(--border2);
-  font-family: 'Merienda';
-  font-size: 30px;
-  color: var(--fcolor1);
-  text-rendering: optimizeLegibility;
-  text-shadow: var(--shadow);
-}
 h2 {
   display: flex;
   align-self: stretch;
@@ -111,15 +68,8 @@ h2 {
 h2 i {
   margin-right: 5px;
 }
-h3 {
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 13px;
-  color: var(--fcolor2);
-  margin-left: 2px;
-}
 
-/* Filters  */
+/* Filters */
 
 button {
     display: block;
