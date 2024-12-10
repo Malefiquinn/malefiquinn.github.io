@@ -102,7 +102,7 @@ body {
 }
 .links>* {
   display: flex;
-  margin-right: 10px;
+  margin: 0px 5px;
   justify-content: center;
   align-items: center;
   align-self: stretch;
@@ -113,6 +113,9 @@ body {
   background: var(--backg2);
   text-shadow: var(--shadow);
   padding: 10px;
+}
+.links a:first-of-type {
+  margin-left: 0px;
 }
 .links a:last-of-type {
   margin-right: 0px;
