@@ -1,0 +1,181 @@
+#verse1, #verse2, #verse3, #verse4, #verse5, #verse6 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  text-align: center;
+  color: var(--fcolor2);
+  text-rendering: optimizeLegibility;
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+#verse1>span, #verse2>span, #verse3>span, #verse4>span, #verse5>span, #verse6>span {
+  font-style: italic;
+  padding-right: 2px;
+}
+.aubox {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--backg1);
+  align-self: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 440px;
+  height: 550px;
+  padding: 20px;
+  margin: 8px;
+  border: var(--border1);
+  box-sizing: border-box;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0px auto;
+}
+.image {
+  width: 800px;
+  height: 300px;
+  border-radius: 5px;
+  border: var(--border2);
+  box-sizing: border-box;
+}
+.thumbnail {
+  width: 400px;
+  min-height: 200px;
+  border-radius: 5px;
+  border: var(--border2);
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+.name {
+  font-family: 'Merienda';
+  font-size: 35px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  text-shadow: var(--shadow);
+  margin-top: 245px;
+}
+.id {
+  font-family: 'Merienda';
+  font-size: 25px;
+  color: var(--tcolor1);;
+  text-rendering: optimizeLegibility;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  text-shadow: var(--shadow);
+  margin-top: 155px;
+}
+.collapsible {
+  width: 100%;
+  color: var(--fcolor1);
+  background-color: var(--backg2);
+  border: none;
+  cursor: pointer;
+}
+.collapsible:hover {
+  background-color: var(--backg3);
+}
+.active {
+  background-color: var(--backg3);
+  border-bottom: var(--border2);
+}
+.content {
+  flex-direction: column;
+  align-self: stretch;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: var(--backg2);
+  border: var(--border2);
+  padding: 0px;
+}
+.box h3, .aubox h3 {
+  display: inline;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  padding: 0px 5px;
+  box-sizing: border-box;
+  text-align: justify;
+  overflow: auto;
+  transition: max-height 0.6s ease-out;
+}
+.autext {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding-right: 5px;
+  box-sizing: border-box;
+  text-align: justify;
+  overflow: auto;
+}
+.text span, .autext span {
+  margin-bottom: 5px;
+}
+.text span:first-of-type {
+  padding-top: 8px;
+}
+.text span:last-of-type, .autext span:last-of-type {
+  padding-bottom: 5px;
+}
+.text a, .autext a {
+  font-style: italic;
+}
+.autext>h2 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+.autext>h2:first-of-type {
+  margin-top: 0px;
+}
+p {
+  text-align: left;
+}
+a {
+  color: var(--scolor1);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--scolor2);
+}
+h1 {
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: var(--backg2);
+  border: var(--border2);
+  font-family: 'Merienda';
+  font-size: 30px;
+  color: var(--fcolor1);
+  text-rendering: optimizeLegibility;
+  text-shadow: var(--shadow);
+}
+h2 {
+  width: 100%;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-style: italic;
+  text-align: left;
+  color: var(--tcolor1);
+}
+h3 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--fcolor2);
+  margin-left: 2px;
+}
