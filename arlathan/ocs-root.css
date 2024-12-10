@@ -142,22 +142,6 @@ body {
 
 /* Variables */
 
-.box {
-  display: flex;
-  flex-direction: row;
-  background-color: var(--backg1);
-  align-self: center;
-  justify-content: center;
-  border-radius: 10px;
-  width: 480px;
-  padding: 20px;
-  margin: 8px;
-  border: var(--border1);
-  box-sizing: border-box;
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-}
 p {
   text-align: left;
 }
