@@ -11,6 +11,9 @@
   font-style: italic;
   padding-right: 2px;
 }
+
+/* Variables */
+
 .aubox {
   display: flex;
   flex-direction: column;
