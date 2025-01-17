@@ -84,7 +84,7 @@
 .id {
   font-family: 'Merienda';
   font-size: 25px;
-  color: var(--tcolor1);;
+  color: var(--fcolor1);;
   text-rendering: optimizeLegibility;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
