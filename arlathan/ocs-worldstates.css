@@ -165,3 +165,36 @@ h2 {
   text-align: left;
   color: var(--tcolor1);
 }
+.types {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+}
+.types>div {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  flex: 1 1 0%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 8px;
+}
+.types>div:first-of-type {
+  margin-left: 0px;
+}
+.types>div:last-of-type {
+  margin-right: 0px;
+}
+.types>div>h3 {
+  margin: 0px;
+  padding-top: 2px;
+}
+.types>div>span {
+  margin: 0px;
+}
