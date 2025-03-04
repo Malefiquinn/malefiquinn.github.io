@@ -48,8 +48,7 @@
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
-::-moz-selection {color: var(--fcolor1);}
-::selection {color: var(--fcolor1);}
+::selection {color: var(--fcolor2); background-color: var(--tcolor1);}
 
 body {
   background-image: url(https://i.imgur.com/ltBiKYw.png);
