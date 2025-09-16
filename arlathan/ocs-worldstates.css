@@ -63,6 +63,8 @@
   border-radius: 5px;
   border: var(--border2);
   box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
 }
 .thumbnail {
   width: 400px;
@@ -70,6 +72,8 @@
   border-radius: 5px;
   border: var(--border2);
   box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
   margin-bottom: 12px;
 }
 .name {
@@ -164,37 +168,4 @@ h2 {
   font-style: italic;
   text-align: left;
   color: var(--tcolor1);
-}
-.types {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-self: stretch;
-  align-items: center;
-  justify-content: center;
-}
-.types>div {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 5px;
-  justify-content: center;
-  align-items: center;
-  align-self: stretch;
-  flex: 1 1 0%;
-  box-sizing: border-box;
-  text-align: center;
-  padding: 8px;
-}
-.types>div:first-of-type {
-  margin-left: 0px;
-}
-.types>div:last-of-type {
-  margin-right: 0px;
-}
-.types>div>h3 {
-  margin: 0px;
-  padding-top: 2px;
-}
-.types>div>span {
-  margin: 0px;
 }
