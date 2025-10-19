@@ -169,3 +169,21 @@ h2 {
   text-align: left;
   color: var(--tcolor1);
 }
+.types {
+  display: flex;
+  flex-direction: row;
+}
+.types>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+}
+.types>div>h3 {
+  margin: 10px 0px !important;
+}
+.types>div>span {
+  padding-top: 0px !important;
+  margin-bottom: 10px !important;
+}
