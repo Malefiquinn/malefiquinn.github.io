@@ -172,6 +172,7 @@ h2 {
 .types {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .types>div {
   display: flex;
