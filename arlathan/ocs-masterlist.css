@@ -23,7 +23,7 @@
   border: var(--border2);
   box-sizing: border-box;
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
 }
 .thumbnail {
   position: relative;
@@ -35,7 +35,6 @@
   border: var(--border2);
   box-sizing: border-box;
   background-position: center;
-  background-size: cover;
 }
 .thumbnail:hover {
   border-radius: 5px;
